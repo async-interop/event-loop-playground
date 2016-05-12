@@ -4,21 +4,78 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e0d0925bca5cf9c3a7fecc6ce42d093d",
-    "content-hash": "d223e38773fa3a9a06c66df4ac249530",
+    "hash": "6954da0d6411bbcdcd169882c93f3c9c",
+    "content-hash": "85cbf0c740279df68ef933a9124db3eb",
     "packages": [
         {
-            "name": "async-interop/event-loop",
-            "version": "dev-static-class-protot",
+            "name": "amphp/amp",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/AndrewCarterUK/event-loop.git",
-                "reference": "83596a6b7a2d6b0caa2704c602320c0029d99935"
+                "url": "https://github.com/amphp/amp.git",
+                "reference": "87a5f29ab4248efe1e15823c3aabd707f767912e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AndrewCarterUK/event-loop/zipball/83596a6b7a2d6b0caa2704c602320c0029d99935",
-                "reference": "83596a6b7a2d6b0caa2704c602320c0029d99935",
+                "url": "https://api.github.com/repos/amphp/amp/zipball/87a5f29ab4248efe1e15823c3aabd707f767912e",
+                "reference": "87a5f29ab4248efe1e15823c3aabd707f767912e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "~1.9",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Amp\\": "lib/"
+                },
+                "files": [
+                    "lib/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@php.net",
+                    "role": "Creator / Lead Developer"
+                }
+            ],
+            "description": "A non-blocking concurrency framework for PHP applications",
+            "homepage": "https://github.com/amphp/amp",
+            "keywords": [
+                "async",
+                "concurrency",
+                "event",
+                "non-blocking",
+                "promise"
+            ],
+            "time": "2016-05-12 05:51:11"
+        },
+        {
+            "name": "async-interop/event-loop",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/async-interop/event-loop.git",
+                "reference": "4b3a8411b3e116077e7733af743f859a3352b071"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/async-interop/event-loop/zipball/4b3a8411b3e116077e7733af743f859a3352b071",
+                "reference": "4b3a8411b3e116077e7733af743f859a3352b071",
                 "shasum": ""
             },
             "require": {
@@ -41,9 +98,10 @@
                 "loop"
             ],
             "support": {
-                "source": "https://github.com/AndrewCarterUK/event-loop/tree/static-class-protot"
+                "source": "https://github.com/async-interop/event-loop/tree/master",
+                "issues": "https://github.com/async-interop/event-loop/issues"
             },
-            "time": "2016-05-12 11:27:24"
+            "time": "2016-05-12 11:52:45"
         }
     ],
     "packages-dev": [],
@@ -51,7 +109,7 @@
         {
             "alias": "1.0.0",
             "alias_normalized": "1.0.0.0",
-            "version": "dev-static-class-protot",
+            "version": "9999999-dev",
             "package": "async-interop/event-loop"
         }
     ],

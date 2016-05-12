@@ -9,13 +9,19 @@
             "email": "me@kelunik.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Playground\\": "src"
+        }
+    },
     "require": {
-        "async-interop/event-loop": "dev-static-class-protot as 1.0.0"
+        "async-interop/event-loop": "dev-master as 1.0.0",
+        "amphp/amp": "^1.2"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/AndrewCarterUK/event-loop"
+            "url": "https://github.com/async-interop/event-loop"
         }
     ]
 }
