@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e0d0925bca5cf9c3a7fecc6ce42d093d",
+    "content-hash": "d223e38773fa3a9a06c66df4ac249530",
+    "packages": [
+        {
+            "name": "async-interop/event-loop",
+            "version": "dev-static-class-protot",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AndrewCarterUK/event-loop.git",
+                "reference": "83596a6b7a2d6b0caa2704c602320c0029d99935"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AndrewCarterUK/event-loop/zipball/83596a6b7a2d6b0caa2704c602320c0029d99935",
+                "reference": "83596a6b7a2d6b0caa2704c602320c0029d99935",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Async\\EventLoop\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "An event loop interface",
+            "keywords": [
+                "async",
+                "event",
+                "interop",
+                "loop"
+            ],
+            "support": {
+                "source": "https://github.com/AndrewCarterUK/event-loop/tree/static-class-protot"
+            },
+            "time": "2016-05-12 11:27:24"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [
+        {
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0",
+            "version": "dev-static-class-protot",
+            "package": "async-interop/event-loop"
+        }
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "async-interop/event-loop": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

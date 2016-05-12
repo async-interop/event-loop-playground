@@ -1,0 +1,21 @@
+{
+    "name": "async-interop/event-loop-playground",
+    "description": "An event loop playground.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niklas Keller",
+            "email": "me@kelunik.com"
+        }
+    ],
+    "require": {
+        "async-interop/event-loop": "dev-static-class-protot as 1.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/AndrewCarterUK/event-loop"
+        }
+    ]
+}
